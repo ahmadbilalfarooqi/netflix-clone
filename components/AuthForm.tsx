@@ -86,7 +86,7 @@ const AuthForm = ({ type }: { type: "register" | "login" }) => {
                       },
                     })}
                     type="text"
-                    placeholder="Example: Ahmad Bilal"
+                    placeholder="Username"
                     className="input-field"
                   />
                   <PersonOutline sx={{ color: "white" }} />
@@ -103,7 +103,7 @@ const AuthForm = ({ type }: { type: "register" | "login" }) => {
                   required: "Email is required",
                 })}
                 type="email"
-                placeholder="Example: abc@example.com"
+                placeholder="Email"
                 className="input-field"
               />
               <EmailOutlined sx={{ color: "white" }} />
@@ -127,7 +127,7 @@ const AuthForm = ({ type }: { type: "register" | "login" }) => {
                   },
                 })}
                 type="password"
-                placeholder="Example: abc@1234"
+                placeholder="Password"
                 className="input-field"
               />
               <LockOutlined sx={{ color: "white" }} />

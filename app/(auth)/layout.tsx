@@ -7,8 +7,8 @@ import AuthProvider from "@context/AuthProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Auth - Netflix Clone",
-  description: " Next.js 14 Auth Netflix Clone.",
+  title: "Ahmad Bilal - Netflix Clone",
+  description: "Created with Next.js + Tailwind CSS + TypeScript.",
 };
 
 export default function RootLayout({

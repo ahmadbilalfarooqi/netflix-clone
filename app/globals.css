@@ -49,7 +49,7 @@
 }
 
 .link {
-  @apply text-base-medium text-center text-white hover:text-pink-1;
+  @apply sm:text-base-medium text-center text-white hover:text-pink-1;
 }
 
 /* Navbar */

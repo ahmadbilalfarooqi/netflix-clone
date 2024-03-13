@@ -87,7 +87,7 @@ const AuthForm = ({ type }: { type: "register" | "login" }) => {
                     })}
                     type="text"
                     placeholder="Username"
-                    className="input-field"
+                    className="input-field overflow-hidden"
                   />
                   <PersonOutline sx={{ color: "white" }} />
                 </div>
@@ -104,7 +104,7 @@ const AuthForm = ({ type }: { type: "register" | "login" }) => {
                 })}
                 type="email"
                 placeholder="Email"
-                className="input-field"
+                className="input-field overflow-hidden"
               />
               <EmailOutlined sx={{ color: "white" }} />
             </div>
@@ -128,7 +128,7 @@ const AuthForm = ({ type }: { type: "register" | "login" }) => {
                 })}
                 type="password"
                 placeholder="Password"
-                className="input-field"
+                className="input-field overflow-hidden"
               />
               <LockOutlined sx={{ color: "white" }} />
             </div>

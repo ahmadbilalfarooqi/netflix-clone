@@ -37,7 +37,7 @@
 }
 
 .input-field {
-  @apply sm:min-w-[300px] bg-transparent text-white outline-none;
+  @apply sm:min-w-[250px] bg-transparent text-white outline-none;
 }
 
 .error {
